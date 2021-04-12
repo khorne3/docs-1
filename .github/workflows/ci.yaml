@@ -41,4 +41,4 @@ jobs:
         run: yarn format:check
 
       - name: Find old files
-        uses: khorne3/action-find-old-files@1.0.1
+        uses: khorne3/action-find-old-files@v1.0.2
