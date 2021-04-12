@@ -1,5 +1,5 @@
 
-name: 'Find Old Files'
+name: 'Find old files'
 description: 'Make a list of all stale Markdown docs'
 
 branding:
