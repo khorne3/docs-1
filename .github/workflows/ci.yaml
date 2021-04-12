@@ -41,7 +41,7 @@ jobs:
         run: yarn format:check
 
       - name: Find old files
-        uses: khorne3/action-find-old-files@v1.0.2
+        uses: khorne3/action-find-old-files@v1.0.3
 
       - uses: actions/checkout@v1
       - run: mkdir -p output/ && cp stale-docs.json output/stale-docs.json
