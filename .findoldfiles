@@ -1,0 +1,24 @@
+
+name: 'Find Old Files'
+description: 'Make a list of all stale Markdown docs'
+
+branding:
+  icon: 'file-plus'
+  color: 'yellow'
+
+inputs:
+  minAge:
+    description: 'Stale docs min age'
+    required: true
+    default: "14"
+  dirs:
+    description: 'Comma-separated list of direcrories to look for stale files in'
+    required: true
+    default: '["admin", "setup"]'
+  
+outputs:
+  files:
+    description: 'JSON list with stale files'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
