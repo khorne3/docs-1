@@ -46,10 +46,9 @@ jobs:
         with:
           minAge: 1
           dirs: '["admin"]'
-          
+
       - name: Save file
         uses: actions/upload-artifact@v2
         with:
           name: old-docs
           path: ${{ steps.old_files.outputs.files }}
-          
