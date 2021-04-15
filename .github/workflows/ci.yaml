@@ -41,7 +41,7 @@ jobs:
         run: yarn format:check
 
       - name: Find old files
-        uses: khorne3/action-find-old-files@v1.0.4
+        uses: khorne3/action-find-old-files@master
         id: old_files
         with:
           minAge: 14
