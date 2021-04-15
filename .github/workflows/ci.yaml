@@ -39,3 +39,6 @@ jobs:
       - name: Formatting
         if: always()
         run: yarn format:check
+
+      - name: Find old files
+        uses: khorne3/action-find-old-files@v1.0.3
