@@ -8,7 +8,7 @@
 
 This repository contains the documentation source files for
 [coder.com/docs](https://coder.com/docs).
-
+cha ge
 ## Contributing
 
 Is something confusing or unclear? Do you want to contribute something new?
