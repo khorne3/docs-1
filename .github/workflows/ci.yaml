@@ -47,7 +47,7 @@ jobs:
         id: old_files
         with:
           minAge: 14
-          dirs: "[.]"
+          dirs: '["."]'
 
       - name: Save file
         uses: actions/upload-artifact@v2
