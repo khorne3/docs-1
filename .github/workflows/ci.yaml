@@ -41,14 +41,14 @@ jobs:
         run: yarn format:check
 
       - name: Find old files
-        uses: khorne3/action-find-old-files@v1.0.3
+        uses: w3f/action-find-old-files@1.0.1
         id: old_files
         with:
-          minAge: 14
-          dirs: '["admin", "cli", "environments", "guides", "images", "setup"]'
+          minAge: 7
+          dirs: '["admin"]'
 
       - name: Save file
         uses: actions/upload-artifact@v2
         with:
-          name: old-docs
+          name: old-docs-list
           path: ${{ steps.old_files.outputs.files }}
