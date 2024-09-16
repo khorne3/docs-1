@@ -11,6 +11,8 @@ This repository contains the documentation source files for
 
 ## Contributing
 
+A change. and more. some........
+
 Is something confusing or unclear? Do you want to contribute something new?
 [Open an issue or pull request](https://github.com/cdr/docs/issues/new)!
 
