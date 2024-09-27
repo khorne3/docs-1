@@ -6,6 +6,8 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+Hello, world!
+
 This repository contains the documentation source files for
 [coder.com/docs](https://coder.com/docs).
 
